@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+header {
+  flex: 1 1 auto;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+  background-color: cornflowerblue;
+}
+
+header a {
+  color: white;
+}
+
+.foto_profile {
+  background-color: cyan;
+  padding-top: 30px;
+}
+
+.profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.text_profile h1 {
+  color: black;
+  text-align: center;
+}
+
+.text_profile p {
+  color: black;
+  text-align: center;
+  margin-top: -15px;
+  padding-bottom: 30px;
+}
+
+.information {
+  font-size: 15px;
+  text-align: justify;
+  float: left;
+  width: 500px;
+  margin-left: 100px;
+}
+
+.information p,
+.personal_information p {
+  font-size: 12px;
+}
+
+.personal_information {
+  font-size: 15px;
+  float: right;
+  width: 500px;
+  margin-right: 100px;
+}
+
+ul {
+  font-size: 13px;
+  list-style: none;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+footer {
+  clear: both;
+}
+
+footer p {
+  padding: 10px;
+  text-align: center;
+}
